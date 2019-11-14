@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import {question} from '..';
+import question from '..';
 
 question();
