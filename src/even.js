@@ -13,10 +13,6 @@ export default () => {
     console.log(`Question: ${randomValue}`);
     const answer = readlineSync.question('Your answer: ').toLowerCase();
     const correctAnswer = (answer === 'yes') ? 'no' : 'yes';
-    if (answer !== 'yes' || answer !== 'no') {
-      console.log(`Let's try again, ${userName} `);
-      return false;
-    }
     if ((answer === 'no' && (randomValue % 2 === 0)) || (answer === 'yes' && (randomValue % 2 !== 0))) {
       console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'\nLet's try again, ${userName}!`);
       return false;
@@ -27,6 +23,9 @@ export default () => {
         console.log(`Congratulations, ${userName}!`);
       }
       i += 1;
+    } else {
+      console.log(`Let's try again, ${userName}`);
+      return false;
     }
   }
   return null;
