@@ -3,4 +3,4 @@
 [![Build Status](https://travis-ci.org/Hippiek1ller/frontend-project-lvl1.svg?branch=master)](https://travis-ci.org/Hippiek1ller/frontend-project-lvl1)
 
 Brain-even 
-[![asciicast](https://asciinema.org/a/As5hymfGckDJ3eDcHTmdusnL1.svg)](https://asciinema.org/a/As5hymfGckDJ3eDcHTmdusnL1)
+[![asciicast](https://asciinema.org/a/X2mKhD4htadsS4i3ZHLd5kN2r.svg)](https://asciinema.org/a/X2mKhD4htadsS4i3ZHLd5kN2r)
