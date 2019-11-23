@@ -1,5 +1,4 @@
 import { cons } from 'hexlet-pairs';
-
 import launchGame from '..';
 
 
