@@ -19,5 +19,5 @@ export default (description, question) => {
       return;
     }
   }
-  console.log(`Congratulations,${userName}`);
+  console.log(`Congratulations, ${userName}!`);
 };
