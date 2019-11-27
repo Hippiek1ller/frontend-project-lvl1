@@ -8,9 +8,9 @@ export default (description, question) => {
   console.log(`Hello, ${userName}!`);
   for (let i = 0; i < 3; i += 1) {
     const questionAnswer = question();
-    const random = car(questionAnswer);
+    const randomQuestion = car(questionAnswer);
     const correctAnswer = cdr(questionAnswer);
-    console.log(`\nQuestion: ${random}`);
+    console.log(`\nQuestion: ${randomQuestion}`);
     const answer = readlineSync.question('Your answer: ').toLowerCase();
     if (answer === correctAnswer) {
       console.log('Correct!');
