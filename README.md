@@ -3,16 +3,16 @@
 [![Build Status](https://travis-ci.org/Hippiek1ller/frontend-project-lvl1.svg?branch=master)](https://travis-ci.org/Hippiek1ller/frontend-project-lvl1)
 
 Brain-even 
-[![asciicast](https://asciinema.org/a/X2mKhD4htadsS4i3ZHLd5kN2r.svg)](https://asciinema.org/a/X2mKhD4htadsS4i3ZHLd5kN2r)
+[![asciicast](https://asciinema.org/a/DcsVUy5OuNKSbZwPvhzAHyly1.svg)](https://asciinema.org/a/DcsVUy5OuNKSbZwPvhzAHyly1)
 
 Brain-calc 
-[![asciicast](https://asciinema.org/a/wjQKlAkirAHE19OgMmPmnv6f4.svg)](https://asciinema.org/a/wjQKlAkirAHE19OgMmPmnv6f4)
+[![asciicast](https://asciinema.org/a/DeIRNDh6S2NYwCL0SMvjMv4qR.svg)](https://asciinema.org/a/DeIRNDh6S2NYwCL0SMvjMv4qR)
 
 Brain-gcd
-[![asciicast](https://asciinema.org/a/z4wUhyusp5g246151WNFI5MpX.svg)](https://asciinema.org/a/z4wUhyusp5g246151WNFI5MpX)
+[![asciicast](https://asciinema.org/a/YyWyqLhUz1ninkMKPWd2Sl5Hv.svg)](https://asciinema.org/a/YyWyqLhUz1ninkMKPWd2Sl5Hv)
 
 Brain-progression
-[![asciicast](https://asciinema.org/a/KNvEUm26lR36rrcH8ssnj9Tck.svg)](https://asciinema.org/a/KNvEUm26lR36rrcH8ssnj9Tck)
+[![asciicast](https://asciinema.org/a/4R6ooFrPnDTBSki4UsQvTf7ZW.svg)](https://asciinema.org/a/4R6ooFrPnDTBSki4UsQvTf7ZW)
 
 Brain-prime
-[![asciicast](https://asciinema.org/a/W7bXiZ8q15aOnuhNQ5pIEDGn5.svg)](https://asciinema.org/a/W7bXiZ8q15aOnuhNQ5pIEDGn5)
+[![asciicast](https://asciinema.org/a/DpiBXs0xt8P8b4ljZG22jXd1B.svg)](https://asciinema.org/a/DpiBXs0xt8P8b4ljZG22jXd1B)
