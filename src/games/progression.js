@@ -14,7 +14,7 @@ const question = () => {
     }
     return result.replace(correctAnswer, '..');
   };
-  return cons(progression(randomDifference, randomNum), correctAnswer.toString());
+  return cons(progression(randomDifference, randomNum), correctAnswer);
 };
 
 export default () => launchGame(description, question);

@@ -1,7 +1,13 @@
 {
-  "name": "frontend-project-lvl1",
+  "name": "@hippiek1ller/brain-games",
   "version": "1.0.0",
-  "description": "",
+  "description": "Console math quiz mini games",
+  "keywords": [
+    "brain",
+    "game",
+    "math quiz",
+    "console"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

@@ -12,7 +12,7 @@ export default (description, question) => {
     const correctAnswer = cdr(questionAnswer);
     console.log(`\nQuestion: ${randomQuestion}`);
     const answer = readlineSync.question('Your answer: ').toLowerCase();
-    if (answer === correctAnswer) {
+    if (answer === correctAnswer.toString()) {
       console.log('Correct!');
     } else {
       console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${userName}`);

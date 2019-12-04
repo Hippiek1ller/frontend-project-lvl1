@@ -19,7 +19,7 @@ const question = () => {
     return 1;
   };
 
-  return cons(randomNums, correctAnswer(randomNum1, randomNum2).toString());
+  return cons(randomNums, correctAnswer(randomNum1, randomNum2));
 };
 
 export default () => launchGame(description, question);
