@@ -1,15 +1,17 @@
 import { cons } from 'hexlet-pairs';
 import launchGame from '..';
+import randomNumberGenerator from '../utilities/randomNumberGenerator';
 
 const description = 'What number is missing in the progression?';
 const question = () => {
-  const randomDifference = Math.floor(Math.random() * 20) + 1;
-  const randomNum = Math.floor(Math.random() * 100);
-  const correctAnswer = randomNum + randomDifference * Math.floor(Math.random() * 10);
+  const randomDifference = randomNumberGenerator(20, 1);
+  const randomNum = randomNumberGenerator(100);
+  const numberOfElements = 10;
+  const correctAnswer = randomNum + randomDifference * randomNumberGenerator(numberOfElements);
 
   const progression = (difference, firstNum) => {
     let result = '';
-    for (let i = firstNum; i < firstNum + (10 * difference); i += difference) {
+    for (let i = firstNum; i < firstNum + numberOfElements * difference; i += difference) {
       result = `${result} ${i}`;
     }
     return result.replace(correctAnswer, '..');
