@@ -3,9 +3,9 @@ import launchGame from '..';
 import randomNumberGenerator from '../utilities/randomNumberGenerator';
 
 const description = 'What is the result of the expression?';
-const question = () => {
-  const randomNum1 = randomNumberGenerator(100);
-  const randomNum2 = randomNumberGenerator(100);
+const getQuestionAndAnswer = () => {
+  const nubmer1 = randomNumberGenerator(100);
+  const nubmer2 = randomNumberGenerator(100);
   const randomExpression = (num1, num2) => {
     const randomCase = randomNumberGenerator(3, 1);
     let val;
@@ -28,7 +28,7 @@ const question = () => {
     }
     return cons(valAnswer, val);
   };
-  return randomExpression(randomNum1, randomNum2);
+  return randomExpression(nubmer1, nubmer2);
 };
 
-export default () => launchGame(description, question);
+export default () => launchGame(description, getQuestionAndAnswer);

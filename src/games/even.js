@@ -4,11 +4,11 @@ import randomNumberGenerator from '../utilities/randomNumberGenerator';
 
 const description = 'Answer "yes" if the number is even, otherwise answer "no".';
 const isEven = (num) => (num % 2 === 0);
-const question = () => {
-  const randomNum = randomNumberGenerator(100);
-  const correctAnswer = isEven(randomNum) ? 'yes' : 'no';
-  return cons(randomNum, correctAnswer);
+const getQuestionAndAnswer = () => {
+  const number = randomNumberGenerator(100);
+  const correctAnswer = isEven(number) ? 'yes' : 'no';
+  return cons(number, correctAnswer);
 };
 
 
-export default () => launchGame(description, question);
+export default () => launchGame(description, getQuestionAndAnswer);

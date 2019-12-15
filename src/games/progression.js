@@ -3,7 +3,7 @@ import launchGame from '..';
 import randomNumberGenerator from '../utilities/randomNumberGenerator';
 
 const description = 'What number is missing in the progression?';
-const question = () => {
+const getQuestionAndAnswer = () => {
   const randomDifference = randomNumberGenerator(20, 1);
   const randomNum = randomNumberGenerator(100);
   const numberOfElements = 10;
@@ -19,4 +19,4 @@ const question = () => {
   return cons(progression(randomDifference, randomNum), correctAnswer);
 };
 
-export default () => launchGame(description, question);
+export default () => launchGame(description, getQuestionAndAnswer);

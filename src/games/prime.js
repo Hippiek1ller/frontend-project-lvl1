@@ -5,17 +5,18 @@ import randomNumberGenerator from '../utilities/randomNumberGenerator';
 const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const isPrime = (num) => {
+  if (num < 2) return false;
   for (let i = 2; i < num; i += 1) {
     if (num % i === 0) {
-      return 'no';
+      return false;
     }
   }
-  return 'yes';
+  return true;
 };
-const question = () => {
-  const randomNum = randomNumberGenerator(200);
-  const correctAnswer = isPrime(randomNum);
-  return cons(randomNum, correctAnswer);
+const getQuestionAndAnswer = () => {
+  const number = randomNumberGenerator(200);
+  const correctAnswer = isPrime(number) ? 'yes' : 'no';
+  return cons(number, correctAnswer);
 };
 
-export default () => launchGame(description, question);
+export default () => launchGame(description, getQuestionAndAnswer);
